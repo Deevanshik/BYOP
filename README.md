@@ -12,3 +12,8 @@ These text prompts are used to fine tune the stable diffusion model by passing t
    - Import the annotation file (link to the file is there in the notebook itself) in the input directory of kaggle.
    - Run the notebook - generating-the-text-prompts.ipynb
    - Download the zip file
+## 3. Resizing the Images to desired resolution
+For Fine Tuning the SDM, we need a resolution of 512x512 but the COCO dataset had a variety of resolutions. This part resizes the images to 512x512.
+- Add the annotation file along with coco dataset in the kaggle input directory.
+- Run the file: resizing-coco-images.ipynb
+- You will be able to download the zip file from the kaggle output directory once the code is executed.
