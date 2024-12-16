@@ -17,3 +17,11 @@ For Fine Tuning the SDM, we need a resolution of 512x512 but the COCO dataset ha
 - Add the annotation file along with coco dataset in the kaggle input directory.
 - Run the file: resizing-coco-images.ipynb
 - You will be able to download the zip file from the kaggle output directory once the code is executed.
+## 4. Gligen Demo
+- For Gen2Det model, I had to inpaint the images from a dataset. I used COCO again and used a model called GLIGEN ([paper](https://arxiv.org/abs/2301.07093) , [github](https://github.com/gligen/GLIGEN)).
+- It inpaints the images on the basis of bounding boxes as well as the objects in those bounding boxes.
+- To run the demo:
+  - Import the COCO dataset in the kaggle input directory.
+  - Run the file: gligen-demo.ipynb
+  - It will save the inpainted images in the described folder. 
+
