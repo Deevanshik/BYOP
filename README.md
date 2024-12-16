@@ -23,5 +23,6 @@ For Fine Tuning the SDM, we need a resolution of 512x512 but the COCO dataset ha
 - To run the demo:
   - Import the COCO dataset in the kaggle input directory.
   - Run the file: gligen-demo.ipynb
-  - It will save the inpainted images in the described folder. 
+  - It will save the inpainted images in the described folder.
+- You can see the input image and inpainted image listed in the repo and can have a demo of how the things work in the gligen.
 
